@@ -1,0 +1,27 @@
+.container {
+  @apply py-3 px-5 rounded-xl shadow bg-white max-w-lg mb-5 mx-auto;
+}
+
+.title {
+  @apply text-base capitalize tracking-wide text-gray-700 font-bold mb-1;
+}
+
+.reward {
+  @apply text-sm capitalize tracking-wide text-gray-700 font-medium italic;
+}
+
+.completed {
+  @apply text-gray-500;
+}
+
+.row {
+  @apply flex flex-row flex-wrap items-center;
+}
+
+.icon {
+  @apply h-6 w-6 text-green-500 mr-2;
+}
+
+.collectButtonContainer {
+  @apply flex items-center justify-center pt-3;
+}

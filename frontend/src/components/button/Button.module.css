@@ -1,0 +1,35 @@
+.button {
+  @apply inline-block py-1 px-12 border border-transparent rounded-xl text-base font-medium text-white hover:bg-opacity-75 focus:outline-none;
+  @apply disabled:bg-opacity-75;
+}
+
+.underlined-button {
+  @apply inline-block py-1.5 underline tracking-wide text-gray-700 text-sm font-bold hover:opacity-75 focus:outline-none;
+  @apply disabled:bg-gray-300;
+}
+
+.hasIcon {
+  @apply flex items-center;
+}
+
+/* Themes */
+.default {
+  @apply bg-purple-500 text-white;
+}
+
+.gray {
+  @apply bg-gray-300 text-gray-700;
+}
+
+.underline-default {
+  @apply underline text-purple-500;
+}
+
+.underline-gray {
+  @apply underline text-gray-700;
+}
+
+/* Sizes */
+.sm {
+  @apply py-0.5 px-2.5 text-sm;
+}
