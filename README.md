@@ -1,6 +1,8 @@
 # [Amnis Link](https://amnis.link/)
 ☝️ the app link
 
+Our orginal build/commits are based in a private repo due to devs nda policys from current employment
+
 
 ## Front End
 Front end is built with React and TypeScript, it uses Tailwind for css.
